@@ -1,1 +1,8 @@
-
+mylist=["java","C","C++"]
+mylist.append("python")
+print(mylist)
+mytuple=("java","C","C++")
+print(mytuple[2])
+mydict={1:"java",2:"C",3:"C++"}
+del mydict[1]
+print(mydict)
