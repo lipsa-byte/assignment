@@ -1,1 +1,10 @@
-
+a=0
+b=1
+i=int(input())
+print(a)
+print(b)
+for j in range(2,i):
+    c=a+b
+    a=b
+    b=c
+    print(c)
